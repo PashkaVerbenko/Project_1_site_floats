@@ -1,0 +1,160 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+
+* {
+	box-sizing: border-box;
+}
+
+nav.clear {
+	/*background: #2d208f;*/
+	background: linear-gradient(to right, #2d208f 0%, #ffd800 100%);
+	color: #4cff00;
+	padding: 15px 0px;
+	
+}
+nav ul {
+	padding: 0;
+	margin: 0;
+}
+nav li {
+	display: inline;
+	margin-left: 10px;
+	
+}
+nav.clear a {
+	text-decoration: none;
+	color: #ffd800;
+	font-size: 20px;
+	display: inline;
+}
+nav.clear a:hover {
+	color: #12ee2f;
+		
+}
+
+h1 {
+	font-size: 2em;
+	padding: 20px 0px;
+	text-align: left;
+	color: #2d208f;
+	text-shadow: 5px 5px 3px #bda82f;
+	
+}
+
+
+
+div.h1 {
+	/*background: #ffd800;*/
+	border-bottom: 1px dashed #2d208f;
+	background: linear-gradient(to left, #2d208f 0%, #ffd800 100%);
+}
+
+h2{
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 20px;
+}
+
+
+aside.one {
+	float: left;
+	width: 20%;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-size: .8em;
+	border-left: 1px dashed #2d208f;
+	border-bottom: 1px dashed #2d208f;
+}
+
+article {
+	padding: 0 10px;
+	float: left;
+	width: 60%;
+	border-left: 1px dashed #2d208f;
+	border-right: 1px dashed #2d208f;
+}
+	article p, h2 {
+		background: url(../img/logo3.jpg) center center /40% no-repeat fixed;
+	}
+
+aside.two {
+	float: right;
+	width: 20%;
+	padding-left: 10px;
+	border-right: 1px dashed #2d208f;
+}
+h3 {
+	font-size: 1em;
+	text-align: center;	
+}
+
+
+
+footer {
+	clear: both;
+	background-color: #ffd800;
+	border-top: 1px dashed #2d208f;
+}
+
+
+
+
+footer2 {
+	clear: both;
+	text-align: center;
+}
+footer2 a{
+	text-decoration: none;
+	color: #ffd800;
+	font-size: 20px;
+	padding: 0 33px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-style: oblique;
+}
+nav.fot {
+	padding: 15px 0;
+	margin: 0;
+	background-color: #2d208f;
+}
+
+
+
+
+
+
+div .wraper, footer2, div h1, footer p, nav ul {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+div.wraper2 {
+	max-width: 1200px;
+	margin: 0 auto;
+}
